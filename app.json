@@ -16,7 +16,7 @@
   ],
   "success_url": "https://t.me/cc_upload_bot",
   "website": "https://github.com/KarimjonovSodiq",
-  "repository": "https://github.com/KarimjonovSodiq/X-URL-Uploader",
+  "repository": "https://github.com/KarimjonovSodiq/URL-Uploader-bot",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
