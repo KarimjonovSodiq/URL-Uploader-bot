@@ -1,19 +1,19 @@
 class Translation(object):
-    START_TEXT = """Hi {},
-I'm CC-URL Uploader!
-You can upload HTTP/HTTPS direct link, Using this bot!
+    START_TEXT = """Salom {},
+Men CC-URL Uploader man!
+Siz bu bot orqali HTTP/HTTPS linklarni yuklashingiz mumkin!
 
-/help for more details!"""
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
+to`liq malumot uchun /help buyrug`ini yuboring!"""
+    FORMAT_SELECTION = "Kerakli formatni tanlang: <a href='{}'>fayl hajmi taxminiy bo‘lishi mumkin</a> \nAgar maxsus eskiz o‘rnatmoqchi bo‘lsangiz, quyidagi tugmalardan birini bosishdan oldin yoki keyin tezda surat yuboring.\nSiz foydalanishingiz mumkin Avtomatik yaratilgan eskizni o'chirish uchun /deletethumbnail."
+    SET_CUSTOM_USERNAME_PASSWORD = """Agar siz premium videolarni yuklab olishni istasangiz, quyidagi formatda taqdim eting:
 URL | filename | username | password"""
-    DOWNLOAD_START = "Now Downloading.."
-    UPLOAD_START = "Now Uploading.."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using @cc_upload_bot)"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds.\n\n@cc_upload_bot"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
+    DOWNLOAD_START = "Olinyabdi.."
+    UPLOAD_START = "Yuklanyabdi.."
+    RCHD_TG_API_LIMIT = " {} sekundda yuklandi .\nYuklangan fayl hajmi: {}\nUzr. Lekin, Telegram API cheklovlari tufayli 2 GB dan katta fayllarni yuklay olmayman."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = " @cc_upload_bot botini ishlatganingiz uchun rahmat)"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = " {} sekundda olindi.\n {} sekundda yuklandi.\n\n@cc_upload_bot"
+    SAVED_CUSTOM_THUMB_NAIL = "Maxsus video/fayl eskizi saqlandi. Ushbu rasm video/faylda ishlatiladi."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Maxsus eskiz muvaffaqiyatli tozalandi."
     CUSTOM_CAPTION_UL_FILE = "{}"
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     HELP_USER = """How to Use Me? Follow These steps!
